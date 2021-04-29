@@ -3,11 +3,15 @@ style: https://optgeo.github.io/b3p/style.json
 chapters:
   -
     title: 大村湾
-    description: 真珠の養殖
+    description: >-
+      真珠とナマコが名産品です。大村湾の天然真珠は古来より有名ですが、
+      現在は真珠の養殖が盛んです。大村湾のナマコは身が柔らかいです。
     hash: 11.2/32.9982/129.8242/138.3/64
   -
     title: 筑紫平野
-    description: 米作、クリーク
+    description: >-
+      海抜約5m以下の低地では、クリークと呼ばれる水路が発達し、
+      独特の水郷景観を形成しています。米作が盛んです。
     hash: 10.89/33.2094/130.4286/14.9/62
 footer: >-
   <p>YAML と GitHub Actions と
