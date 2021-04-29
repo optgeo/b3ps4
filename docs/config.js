@@ -3,9 +3,9 @@ const config = {
   "style": "https://optgeo.github.io/b3p/style.json",
   "chapters": [
     {
-      "title": "迎賓館赤坂離宮",
-      "description": "外国の国家元首や政府の長などの国賓を迎え入れた時に、会食や宿泊等の接遇を行う施設です。",
-      "hash": "17.2/35.680567/139.72849/155.1/57",
+      "title": "大村湾",
+      "description": "真珠の養殖",
+      "hash": "11.2/32.9982/129.8242/138.3/64",
       "id": "chapter-1",
       "alignment": "right",
       "callback": null,
@@ -19,13 +19,39 @@ const config = {
 
       ],
       "location": {
-        "zoom": 17.2,
+        "zoom": 11.2,
         "center": [
-          139.72849,
-          35.680567
+          129.8242,
+          32.9982
         ],
-        "bearing": 155.1,
-        "pitch": 57.0
+        "bearing": 138.3,
+        "pitch": 64.0
+      }
+    },
+    {
+      "title": "筑紫平野",
+      "description": "米作、クリーク",
+      "hash": "10.89/33.2094/130.4286/14.9/62",
+      "id": "chapter-2",
+      "alignment": "right",
+      "callback": null,
+      "hidden": false,
+      "mapAnimation": "flyTo",
+      "rotateAnimation": true,
+      "onChapterEnter": [
+
+      ],
+      "onChapterExit": [
+
+      ],
+      "location": {
+        "zoom": 10.89,
+        "center": [
+          130.4286,
+          33.2094
+        ],
+        "bearing": 14.9,
+        "pitch": 62.0
       }
     }
   ],
